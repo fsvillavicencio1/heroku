@@ -1,5 +1,6 @@
 package ec.edu.utpl.sic.gp.microservicio.dto;
 import java.io.Serializable;
+import javax.persistence.Table;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -7,6 +8,7 @@ import javax.persistence.Id;
 
 
 @Entity
+@Table(name = "denuncias")
 public class Denuncia implements Serializable{
 	private static final long serialVersionUID = 4894729030347835498L;
 	
