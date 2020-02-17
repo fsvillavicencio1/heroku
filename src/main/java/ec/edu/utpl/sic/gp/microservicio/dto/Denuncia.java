@@ -21,16 +21,18 @@ public class Denuncia implements Serializable{
     private String ubicacion;
     private String descripcion;
     private String estado;
+    private String url;
     
     public Denuncia() {}
 
-    public Denuncia(Long id, String tipo, String ubicacion, String descripcion, String estado) {
+    public Denuncia(Long id, String tipo, String ubicacion, String descripcion, String estado, String url) {
         super();
     	this.id = id;
         this.tipo = tipo;
         this.ubicacion = ubicacion;
         this.descripcion = descripcion;
         this.estado = estado;
+        this.url = url;
     }
 
     public Long getId() {
@@ -72,6 +74,14 @@ public class Denuncia implements Serializable{
     public void setEstado(String estado) {
         this.estado = estado;
     }
+    
+    public String getUrl() {
+        return url;
+    }
+
+    public void setUrl(String url) {
+        this.url = url;
+    }
 
     @Override
     public String toString() {
@@ -86,6 +96,8 @@ public class Denuncia implements Serializable{
         builder.append(descripcion);
         builder.append(", estado=");
         builder.append(estado);
+        builder.append(", url=");
+        builder.append(url);
         builder.append("]");
         return builder.toString();
     }
