@@ -5,6 +5,7 @@ import javax.persistence.Table;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.GenerationType;
 
 
 @Entity
@@ -13,16 +14,17 @@ public class Denuncia implements Serializable{
 	private static final long serialVersionUID = 4894729030347835498L;
 	
 	@Id
-	@GeneratedValue
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+	
     private String tipo;
     private String ubicacion;
     private String descripcion;
-    private boolean estado;
+    private String estado;
     
     public Denuncia() {}
 
-    public Denuncia(Long id, String tipo, String ubicacion, String descripcion, boolean estado) {
+    public Denuncia(Long id, String tipo, String ubicacion, String descripcion, String estado) {
         super();
     	this.id = id;
         this.tipo = tipo;
@@ -63,11 +65,11 @@ public class Denuncia implements Serializable{
         this.descripcion = descripcion;
     }
 
-    public boolean isEstado() {
+    public String getEstado() {
         return estado;
     }
 
-    public void setEstado(boolean estado) {
+    public void setEstado(String estado) {
         this.estado = estado;
     }
 

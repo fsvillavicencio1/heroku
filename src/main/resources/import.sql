@@ -1,0 +1,16 @@
+INSERT INTO `denuncias` (tipo, ubicacion, descripcion, estado) VALUES ('SANITARIO', 'SAMANA', 'BASURA REGADA EN LA ACERA', 'PENDIENTE');
+insert into `denuncias` (tipo, ubicacion, descripcion, estado) VALUES ('TRANSITO', '10 DE AGOSTO', 'SEMÁFORO DESCOMPUESTO', 'PENDIENTE');
+insert into `denuncias` (tipo, ubicacion, descripcion, estado) VALUES ('SANITARIO', 'EL VALLE', 'BASURA REGADA EN LA ACERA', 'PENDIENTE');
+insert into `denuncias` (tipo, ubicacion, descripcion, estado) VALUES ('SANITARIO', 'SAN CAYETANO', 'BASURA REGADA EN LA ACERA', 'PENDIENTE');
+insert into `denuncias` (tipo, ubicacion, descripcion, estado) VALUES ('SANITARIO', 'BORJA', 'BASURA REGADA EN LA ACERA', 'PENDIENTE');
+insert into `denuncias` (tipo, ubicacion, descripcion, estado) VALUES ('SANITARIO', 'SAUCES', 'BASURA REGADA EN LA ACERA', 'PENDIENTE');
+insert into `denuncias` (tipo, ubicacion, descripcion, estado) VALUES ('SANITARIO', 'ARGELIA', 'BASURA REGADA EN LA ACERA', 'PENDIENTE');
+insert into `denuncias` (tipo, ubicacion, descripcion, estado) VALUES ('SANITARIO', 'TIERRAS COLORADAS', 'BASURA REGADA EN LA ACERA', 'PENDIENTE');
+insert into `denuncias` (tipo, ubicacion, descripcion, estado) VALUES ('SANITARIO', 'CIUDAD VICTORIA', 'BASURA REGADA EN LA ACERA', 'PENDIENTE');
+insert into `denuncias` (tipo, ubicacion, descripcion, estado) VALUES ('SANITARIO', 'CARIGAN', 'BASURA REGADA EN LA ACERA', 'PENDIENTE');
+insert into `denuncias` (tipo, ubicacion, descripcion, estado) VALUES ('SANITARIO', 'TENERIA', 'BASURA REGADA EN LA ACERA', 'PENDIENTE');
+insert into `denuncias` (tipo, ubicacion, descripcion, estado) VALUES ('SANITARIO', 'MOTUPE', 'BASURA REGADA EN LA ACERA', 'PENDIENTE');
+insert into `denuncias` (tipo, ubicacion, descripcion, estado) VALUES ('SANITARIO', 'VIA A ZAMORA', 'BASURA REGADA EN LA ACERA', 'PENDIENTE');
+insert into `denuncias` (tipo, ubicacion, descripcion, estado) VALUES ('SANITARIO', 'EPOCA', 'BASURA REGADA EN LA ACERA', 'PENDIENTE');
+insert into `denuncias` (tipo, ubicacion, descripcion, estado) VALUES ('SANITARIO', 'SAN PEDRO', 'BASURA REGADA EN LA ACERA', 'PENDIENTE');
+insert into `denuncias` (tipo, ubicacion, descripcion, estado) VALUES ('SANITARIO', 'PITAS', 'BASURA REGADA EN LA ACERA', 'PENDIENTE');
